@@ -464,7 +464,7 @@ a:hover {
   background-color: #f4f7f6;
   border: 0px solid;
   outline: none;
-  padding: 0 1.8rem 0.1rem 1.8rem;
+  padding: 0 1.8rem;
 }
 
 .visually-hidden {
@@ -648,7 +648,6 @@ a:hover {
   max-width: 1201px;
   margin: auto;
   text-align: center;
-  margin-bottom: 4rem;
 }
 
 .footer-social-block {
@@ -706,7 +705,7 @@ a:hover {
 .footer-copyright-block {
   font-family: OpenSansBold, sans-serif;
   font-size: 11px;
-  margin: 5rem auto 0;
+  margin: 5rem auto;
   display: inline-block;
 }
 
@@ -908,6 +907,7 @@ a:hover {
 
   .content-blocks {
     margin-top: 0;
+    width: 39rem;
   }
 
   .block {
@@ -1094,6 +1094,7 @@ a:hover {
 
   .content-blocks {
     margin-top: 0;
+    width: 100%;
   }
 
   .block {
@@ -1105,6 +1106,14 @@ a:hover {
     max-width: 39rem;
     width: 90%;
   }
+
+  .block:first-child {
+    margin: 0 auto 0rem auto;
+}
+
+.block:last-child {
+  margin: 3rem auto 3.5rem auto;
+}
 
   .block:nth-child(6),
   .block:nth-child(7) {
@@ -1174,41 +1183,48 @@ a:hover {
   }
 
   .content-side-search-input {
-    width: 26rem;
+    width: 24rem;
   }
 
   .content-side-subscribe-block {
-    margin: 6rem auto 0;
+    margin: 4rem auto 0;
   }
 
   .content-side-subscribe-input {
-    width: 31rem;
+    width: 29rem;
+    margin: auto;
   }
 
+  .content-side-subscribe-button {
+    width: 32.5rem;
+    margin: 1.5rem auto 0;
+  }  
+
   .content-side-subscribe {
-    width: 33rem;
+    width: 32.5rem;
+    margin: 4rem auto 0;
   }
 
   .content-side-tags-block {
-    margin: 6rem auto 0;
+    margin: 4rem auto 0;
   }
 
   .content-side-tags {
     width: 33rem;
+    margin: 4rem auto 0;
   }
 
   .content-side-topics-block {
-    margin: 6rem auto 2rem;
-    min-width: 34rem;
+    margin: 4rem auto 0;
   }
 
   .goods {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .goods-item {
     flex-basis: 75%;
-    margin: 4.2rem 2.5rem 3rem;
+    margin: 4.2rem auto 3rem;
   }
 
   .goods-item-img {
@@ -1230,10 +1246,6 @@ a:hover {
 
   .footer {
     margin: 3rem auto 0;
-  }
-  .footer-copyright-block {
-    padding-bottom: 0px;
-    padding-top: 60px;
   }
 
   .popup {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,14 @@
   <title>NOEMI | Home page</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
   <header class="header">
     <div class="header-menu">
       <div class="header-logo">
-        <img src="svg/noemi-logo.svg" alt="логотип компании">
+        <a class="header-logo-link" href="#">
+          <img class="header-logo-link-img" src="svg/noemi-logo.svg" alt="логотип компании">
+        </a>
       </div>
       <nav class="header-menu-items-block">
         <ul class="header-menu-items">
@@ -46,8 +50,7 @@
       </nav>
     </div>
     <div class="header-about">
-      <h1>Блог о творчестве, спорте,
-        и образе жизни</h1>
+      <h1 class="header-about-text">Блог о творчестве, спорте, и образе жизни</h1>
     </div>
   </header>
   <aside class="trends">
@@ -102,7 +105,7 @@
             <time class="block-content-when">10 июня 2019</time><a class="block-content-who" href="#">Неизвестный автор</a>
           </div>
           <div class="block-content-text">
-            <p>Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
+            <p class="block-content-text-descr">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
           </div>
         </div>
       </article>
@@ -118,7 +121,7 @@
             <time class="block-content-when">10 июня 2019</time><a class="block-content-who" href="#">Неизвестный автор</a>
           </div>
           <div class="block-content-text">
-            <p>Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
+            <p class="block-content-text-descr">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
           </div>
         </div>
       </article>
@@ -133,7 +136,7 @@
             <time class="block-content-when">10 июня 2019</time><a class="block-content-who" href="#">Неизвестный автор</a>
           </div>
           <div class="block-content-text">
-            <p>Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку? Мы составили список лучших летних фестивалей по всему миру.</p>
+            <p class="block-content-text-descr">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку? Мы составили список лучших летних фестивалей по всему миру.</p>
           </div>
         </div>
       </article>
@@ -149,7 +152,7 @@
             <time class="block-content-when">10 июня 2019</time><a class="block-content-who" href="#">Неизвестный автор</a>
           </div>
           <div class="block-content-text">
-            <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+            <p class="block-content-text-descr">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
           </div>
         </div>
       </article>
@@ -166,7 +169,7 @@
             <time class="block-content-when">10 июня 2019</time><a class="block-content-who" href="#">Неизвестный автор</a>
           </div>
           <div class="block-content-text">
-            <p>Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
+            <p class="block-content-text-descr">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
           </div>
         </div>
       </article>
@@ -176,45 +179,47 @@
         <h3 class="content-side-title">Новые посты</h3>
         <div class="new-posts-block">
           <article class="new-post">
-            <img src="img/2.jpg" alt="человек идет по песчанному берегу">
+            <img class="new-post-img" src="img/2.jpg" alt="человек идет по песчанному берегу">
             <div class="new-post-content">
               <time class="new-post-content-date">14 июня 2019</time>
-              <h4 class="new-post-content-title">10 мест, ради которых стоит проснуться</h4>
+              <h4 class="new-post-content-title"><a class="new-post-content-title-link" href="#">10 мест, ради которых стоит проснуться</a></h4>
             </div>
           </article>
           <article class="new-post">
-            <img src="img/151.jpg" alt="девушка занимается йогой на песчанном берегу">
+            <img class="new-post-img" src="img/151.jpg" alt="девушка занимается йогой на песчанном берегу">
             <div class="new-post-content">
               <time class="new-post-content-date">14 июня 2019</time>
-              <h4 class="new-post-content-title">Йога для домашних</h4>
+              <h4 class="new-post-content-title"><a class="new-post-content-title-link" href="#">Йога для домашних</a></h4>
             </div>
           </article>
           <article class="new-post">
-            <img src="img/45.jpg" alt="стул на фоне интерьера">
+            <img class="new-post-img" src="img/45.jpg" alt="стул на фоне интерьера">
             <div class="new-post-content">
               <time class="new-post-content-date">14 июня 2019</time>
-              <h4 class="new-post-content-title">как мы превратили классное место в балкон</h4>
+              <h4 class="new-post-content-title"><a class="new-post-content-title-link" href="#">как мы превратили классное место в балкон</a></h4>
             </div>
           </article>
           <article class="new-post">
-            <img src="img/501.jpg" alt="сервированный под старину стол">
+            <img class="new-post-img" src="img/501.jpg" alt="сервированный под старину стол">
             <div class="new-post-content">
               <time class="new-post-content-date">14 июня 2019</time>
-              <h4 class="new-post-content-title">кулинарный подход к науке</h4>
+              <h4 class="new-post-content-title"><a class="new-post-content-title-link" href="#">кулинарный подход к науке</a></h4>
             </div>
           </article>
           <article class="new-post">
-            <img src="img/7.jpg" alt="три девушки с распущенными волосами">
+            <img class="new-post-img" src="img/7.jpg" alt="три девушки с распущенными волосами">
             <div class="new-post-content">
               <div time="new-post-content-date">14 июня 2019</div>
-              <h4 class="new-post-content-title">лучшие прически для распущенных волос</h4>
+              <h4 class="new-post-content-title"><a class="new-post-content-title-link" href="#">лучшие прически для распущенных волос</a></h4>
             </div>
           </article>
         </div>
         <form class="content-side-search">
-          <input class="content-side-search-input" placeholder="Найти..." required>
+          <label class="content-side-search-label">
+            <input class="content-side-search-input" placeholder="Найти..." required>
+            <span class="visually-hidden">найти</span>
+          </label>
           <button class="content-side-search-button"></button>
-          <span class="visually-hidden">найти</span>
         </form>
       </section>
       <section class="content-side-subscribe-block">
@@ -223,8 +228,8 @@
           <label class="content-side-subscribe-label">
             <input class="content-side-subscribe-input" placeholder="Ваш email-адрес" type="email" name="query" required>
             <span class="visually-hidden">Ваш email-адрес</span>
-            <button class="content-side-subscribe-button" type="submit">Подписаться</button>
           </label>
+          <button class="content-side-subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
       <section class="content-side-tags-block">
@@ -392,6 +397,6 @@
     </form>
     <button class="popup-block-body-close" type="button"></button>
   </div>
-  <div class="popup-overlay"></div>
 </body>
+
 </html>

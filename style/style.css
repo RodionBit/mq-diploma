@@ -37,9 +37,11 @@ a:link,
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
+
+
 
 .header {
   display: flex;
@@ -47,7 +49,7 @@ a:hover {
   background-color: #000000;
   background-image: url(../img/banner-bg.jpg);
   background-size: cover;
-  padding: 2.8rem 0 13rem;
+  padding: 2.8rem 0 12.4rem;
   position: relative;
 }
 
@@ -67,7 +69,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  max-width: 1201px;
+  max-width: 1165px;
   margin: auto;
   z-index: 1;
 }
@@ -94,7 +96,11 @@ a:hover {
   font-family: OpenSansReg, sans-serif;
   text-transform: uppercase;
   margin-right: 3.8rem;
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.001rem;
+}
+
+.header-menu-item:hover {
+  text-decoration: underline;
 }
 
 .header-menu-item:nth-of-type(6) {
@@ -115,14 +121,14 @@ a:hover {
 .header-about > .header-about-text {
   text-transform: uppercase;
   color: #fff;
-  line-height: 1.63;
+  line-height: 1.73;
   font-size: 4.5rem;
   font-family: OpenSansBold, sans-serif;
 }
 
 .trends {
   display: flex;
-  margin: 6.4rem auto 0;
+  margin: 5.7rem auto 0;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: center;
@@ -135,6 +141,7 @@ a:hover {
   font-size: 2rem;
   color: #0f0d0e;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .big-title::after {
@@ -155,8 +162,8 @@ a:hover {
   flex-basis: 24.8%;
   align-items: stretch;
   justify-content: flex-end;
-  margin: 4.2rem 0.1rem 0;
-  min-height: 25.5rem;
+  margin: 2.7rem 0.1rem 0;
+  min-height: 31.8rem;
   text-align: left;
 }
 
@@ -203,7 +210,7 @@ a:hover {
 }
 
 .block-trend-text {
-  padding: 3rem 2rem 2rem;
+  padding: 3rem 3.5rem 2rem;
   margin: 1.5rem 2.1rem 1.5rem 2.1rem;
   z-index: 1;
   border: 3px solid #b59f5b88;
@@ -217,7 +224,7 @@ a:hover {
   font-size: 1.4rem;
   color: #b59f5b;
   text-transform: uppercase;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.9rem;
 }
 
 .block-trend-tag-item {
@@ -238,11 +245,16 @@ a:hover {
   font-size: 1.9rem;
   line-height: 1.3;
   letter-spacing: 0.4px;
+  margin-bottom: 1.2rem;
 }
 
 .block-trend-title-link:link,
 .block-trend-title-link:active,
 .block-trend-title-link:visited {
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.block-trend-title-link:hover {
   color: #fff;
 }
 
@@ -258,6 +270,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   width: 79rem;
+  margin: 0.4rem 1.7rem 0;
 }
 
 .block {
@@ -271,7 +284,7 @@ a:hover {
 }
 
 .block:last-child {
-  margin: 3rem auto 6.5rem auto;
+  margin: 3.4rem auto 6rem auto;
 }
 
 .block-image {
@@ -301,6 +314,10 @@ a:hover {
 
 .block-content-tag-item-link:link {
   color: #b59f5b;
+}
+
+.block-content-tag-item-link:link:hover {
+  text-decoration: underline;
 }
 
 .block-content-title {
@@ -345,6 +362,7 @@ a:hover {
 
 .content-side-blocks {
   width: 27rem;
+  margin: 0 1.6rem;
 }
 
 .content-side-title {
@@ -368,20 +386,22 @@ a:hover {
 .new-posts {
   display: flex;
   flex-direction: column;
+  
 }
 
 .new-posts-block {
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 .new-post {
   display: flex;
   flex-direction: row;
-  margin: 1.5rem 0 0.7rem;
+  margin: 2.1rem 0 0;
 }
 
 .new-post > .new-post-img {
   width: 7rem;
+  margin-top: 0.2rem;
 }
 
 .new-post-content {
@@ -408,7 +428,7 @@ a:hover {
 }
 
 .content-side-search {
-  margin-top: 6rem;
+  margin-top: 5.7rem;
   font-size: 0;
   display: inline-flex;
   flex-direction: row;
@@ -423,6 +443,10 @@ a:hover {
   background-color: #f4f7f6;
   border: 0px solid;
   outline: none;
+}
+
+.content-side-search-input:focus {
+  border-bottom: 1px solid #b59f5b18;
 }
 
 .content-side-search-button {
@@ -447,13 +471,13 @@ a:hover {
 .content-side-subscribe-block {
   display: flex;
   flex-direction: column;
-  margin-top: 6rem;
+  margin-top: 5.5rem;
 }
 
 .content-side-subscribe {
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
+  margin-top: 2.2rem;
   width: 27rem;
 }
 
@@ -465,6 +489,10 @@ a:hover {
   border: 0px solid;
   outline: none;
   padding: 0 1.8rem;
+}
+
+.content-side-subscribe-input:focus {
+  border-bottom: 1px solid #b59f5b18;
 }
 
 .visually-hidden {
@@ -497,11 +525,11 @@ a:hover {
 .content-side-tags-block {
   display: flex;
   flex-direction: column;
-  margin-top: 6rem;
+  margin-top: 5.5rem;
 }
 
 .content-side-tags {
-  margin-top: 4rem;
+  margin-top: 1.9rem;
   width: 27rem;
   box-sizing: content-box;
 }
@@ -522,14 +550,18 @@ a:hover {
   color: #0f0d0e;
 }
 
+.content-side-tag-link:link:hover {
+  color: #000;
+}
+
 .content-side-topics-block {
   display: flex;
   flex-direction: column;
-  margin-top: 6rem;
+  margin-top: 5.5rem;
 }
 
 .content-side-topics {
-  margin-top: 3rem;
+  margin-top: .5rem;
 }
 
 .content-side-topic {
@@ -540,7 +572,7 @@ a:hover {
   display: block;
   border-bottom: 1px solid #eeeeee;
   align-items: center;
-  padding: 1.3rem;
+  padding: 1.2rem;
   padding-left: 0px;
 }
 
@@ -570,7 +602,7 @@ a:hover {
   font-size: 1.9rem;
   font-family: OpenSansBold, sans-serif;
   position: relative;
-  margin: 4.2rem 2.5rem 7rem;
+  margin: 2.4rem 3.9rem 2.6rem;
   text-align: left;
 }
 
@@ -595,7 +627,7 @@ a:hover {
 
 .goods-item-info-title {
   text-transform: uppercase;
-  margin: 2.5rem 0 0.8rem;
+  margin: 2.2rem 0 .5rem;
 }
 
 .goods-item-info-about {
@@ -609,9 +641,13 @@ a:hover {
   color: #b59f5b;
 }
 
+.goods-item-info-about-link:hover {
+  text-decoration: underline;
+}
+
 .goods-item-info-prices-button {
   display: flex;
-  margin-top: 2.3rem;
+  margin-top: 2.6rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -652,9 +688,9 @@ a:hover {
 
 .footer-social-block {
   max-width: 1201px;
-  width: 90%;
-  margin: auto;
-  padding: 4rem 0;
+  width: 97.5%;
+  margin: 6.7rem auto 0;
+  padding: 2.8rem 0;
   background-color: #f4f7f6;
 }
 
@@ -704,8 +740,8 @@ a:hover {
 
 .footer-copyright-block {
   font-family: OpenSansBold, sans-serif;
-  font-size: 11px;
-  margin: 5rem auto;
+  font-size: 12.2px;
+  margin: 7.1rem auto 4.3rem;
   display: inline-block;
 }
 
@@ -848,7 +884,7 @@ a:hover {
 
 @media (min-width: 641px) and (max-width: 1200px) {
   .header {
-    padding: 4.3rem 0;
+    padding: 4.3rem 0 3.4rem;
     background-repeat: no-repeat;
     background-image: url(../img/banner-bg-tablet.jpg);
   }
@@ -857,8 +893,8 @@ a:hover {
     width: calc(100% - 7rem);
   }
 
-  .header-logo > img {
-    width: 15.8rem;
+  .header-logo > .header-logo-link > .header-logo-link-img {
+    width: 15.9rem;
   }
 
   .header-menu-items-block {
@@ -875,16 +911,17 @@ a:hover {
   }
 
   .header-about {
-    margin: 13rem auto;
+    margin: 8rem auto;
     padding: 0 6.5rem;
   }
 
   .header-about > .header-about-text {
     font-size: 4rem;
+    line-height: 1.4;
   }
 
   .trends {
-    margin: 4.6rem auto;
+    margin: 4.4rem auto;
   }
 
   .big-title {
@@ -894,7 +931,23 @@ a:hover {
   .block-trend {
     flex-basis: 49.5%;
     margin: 0.1rem 0.1rem;
+    min-height: 24.4rem;
   }
+
+  .block-trend-tag-items {
+    margin-bottom: .5rem;
+  }
+
+  .block-trend-title {
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin-bottom: 1.3rem;
+}
+
+  .block-trend-text {
+    padding: 3rem 3rem 1.6rem;
+    margin: 1.5rem 2.1rem 1.5rem 2.1rem;
+}
 
   .block-trend:nth-child(2),
   .block-trend:nth-child(3) {
@@ -903,21 +956,22 @@ a:hover {
 
   .main {
     justify-content: space-evenly;
+    margin: 4.8rem auto 0;
   }
 
   .content-blocks {
-    margin-top: 0;
+    margin: 0.4rem 0.8rem 0;
     width: 39rem;
   }
 
   .block {
     flex-direction: column;
     margin: 4rem auto 0;
-    padding-bottom: 1rem;
+    padding-bottom: 2.2rem;
     border-bottom: 2px solid #eeeeee;
-    min-width: 35rem;
-    max-width: 39rem;
-    width: 100%;
+    /* min-width: 35rem; */
+    /* max-width: 39rem; */
+    /* /* width: 100%; */
   }
 
   .block:nth-child(6),
@@ -929,25 +983,28 @@ a:hover {
     margin: 0 auto;
   }
 
+  .block:nth-child(4) {
+    margin-top: 5rem;
+  }
+
   .block:last-child {
-    margin: 4rem auto 0;
+    margin: 3.5rem auto 0;
     border-bottom: none;
   }
 
   .block-image {
-    width: 95%;
-    margin-right: 0;
-    margin: auto;
+    width: 100%;
+    margin-left: 0.7rem;
   }
 
   .block-content {
-    width: 95%;
+    width: 100%;
     margin: auto;
   }
 
   .block-content-tag-items {
     width: 95%;
-    margin: 1.5rem auto;
+    margin: 1.3rem auto;
   }
 
   .block-content-tag-item:first-child {
@@ -955,17 +1012,19 @@ a:hover {
   }
 
   .block-content-title {
-    width: 95%;
-    margin: auto;
+    width: 98.5%;
+    margin: 0rem auto;
+    line-height: 1;
+    letter-spacing: -1.2px;
   }
 
   .block-content-when-who {
-    width: 95%;
-    margin: 3.7rem auto 3.3rem;
+    width: 96%;
+    margin: 3.3rem auto 2.7rem;
   }
 
   .block-content-text {
-    width: 95%;
+    width: 98%;
     margin: auto;
   }
 
@@ -974,17 +1033,36 @@ a:hover {
   }
 
   .content-side-blocks {
-    margin-top: 0;
+    margin: 0 1.8rem;
+  }
+
+  .new-post-content {
+    margin-left: 1.4rem;
+  }
+
+  .new-post-content-title {
+  line-height: 1.3;
+  }
+
+  .content-side-title {
+    font-size: 1.5rem;
+  }
+
+  .content-side-tag {
+    padding: 0.5rem 1.2rem 0.5rem 1.65rem;
+    margin: 0.25rem 0rem 0.25rem;
+    letter-spacing: 0.4px;
+    font-size: 1.1rem;
   }
 
   .goods {
     justify-content: stretch;
-    width: 90%;
-    margin-top: 5rem;
+    width: 93.5%;
+    margin-top: 4rem;
   }
 
   .goods-item {
-    margin: 4.2rem 5% 6rem;
+    margin: 2.9rem 5% 3rem;
     flex-basis: 40%;
   }
 
@@ -997,16 +1075,33 @@ a:hover {
     flex-grow: 2;
   }
 
+  .goods-item-info-title {
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem;
+}
+
   .goods-item-info-prices {
     flex-shrink: 0;
   }
 
+  .goods-item-info-prices-button {
+    margin-top: 2rem;
+}
+
   .goods-item-info-button {
     flex-shrink: 0;
   }
+
+  .footer-copyright-block {
+    margin: 4.8rem auto 3.5rem;
+  }
+
+  .footer-social-block {
+    margin: 5.3rem auto 0;
+  }
 }
 
-@media (orientation: landscape) and (min-width: 641px) and (max-width: 1200px) {
+/* @media (orientation: landscape) and (min-width: 641px) and (max-width: 1200px) {
   .block-trend {
     flex-basis: 21.5%;
     margin: 2.2rem 0.1rem 0;
@@ -1027,7 +1122,7 @@ a:hover {
   .block-trend-tag-items {
     font-size: 1rem;
   }
-}
+} */
 
 @media (min-width: 360px) and (max-width: 640px) {
   .header {
@@ -1094,7 +1189,7 @@ a:hover {
 
   .content-blocks {
     margin-top: 0;
-    width: 100%;
+    width: 95%;
   }
 
   .block {
@@ -1216,6 +1311,7 @@ a:hover {
 
   .content-side-topics-block {
     margin: 4rem auto 0;
+    width: 31rem;
   }
 
   .goods {
@@ -1261,7 +1357,7 @@ a:hover {
   }
 }
 
-@media (orientation: landscape) and (min-width: 360px) and (max-width: 640px) {
+/* @media (orientation: landscape) and (min-width: 360px) and (max-width: 640px) {
   .block-trend {
     flex-basis: 33.5%;
     margin: 0.2rem 0.1rem 0;
@@ -1291,4 +1387,4 @@ a:hover {
   .block-trend-tag-items {
     font-size: 1rem;
   }
-}
+} */

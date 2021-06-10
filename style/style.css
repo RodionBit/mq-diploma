@@ -41,8 +41,6 @@ a:link,
   text-decoration: underline;
 } */
 
-
-
 .header {
   display: flex;
   flex-direction: column;
@@ -251,7 +249,7 @@ a:link,
 .block-trend-title-link:link,
 .block-trend-title-link:active,
 .block-trend-title-link:visited {
-  color: rgba(255, 255, 255, 0.9)
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .block-trend-title-link:hover {
@@ -386,7 +384,6 @@ a:link,
 .new-posts {
   display: flex;
   flex-direction: column;
-  
 }
 
 .new-posts-block {
@@ -561,7 +558,7 @@ a:link,
 }
 
 .content-side-topics {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .content-side-topic {
@@ -627,7 +624,7 @@ a:link,
 
 .goods-item-info-title {
   text-transform: uppercase;
-  margin: 2.2rem 0 .5rem;
+  margin: 2.2rem 0 0.5rem;
 }
 
 .goods-item-info-about {
@@ -935,19 +932,19 @@ a:link,
   }
 
   .block-trend-tag-items {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .block-trend-title {
     font-size: 1.7rem;
     line-height: 1.3;
     margin-bottom: 1.3rem;
-}
+  }
 
   .block-trend-text {
     padding: 3rem 3rem 1.6rem;
     margin: 1.5rem 2.1rem 1.5rem 2.1rem;
-}
+  }
 
   .block-trend:nth-child(2),
   .block-trend:nth-child(3) {
@@ -1041,7 +1038,7 @@ a:link,
   }
 
   .new-post-content-title {
-  line-height: 1.3;
+    line-height: 1.3;
   }
 
   .content-side-title {
@@ -1077,8 +1074,8 @@ a:link,
 
   .goods-item-info-title {
     text-transform: uppercase;
-    margin: 2rem 0 .5rem;
-}
+    margin: 2rem 0 0.5rem;
+  }
 
   .goods-item-info-prices {
     flex-shrink: 0;
@@ -1086,7 +1083,7 @@ a:link,
 
   .goods-item-info-prices-button {
     margin-top: 2rem;
-}
+  }
 
   .goods-item-info-button {
     flex-shrink: 0;
@@ -1140,7 +1137,7 @@ a:link,
     margin: auto;
   }
 
-  .header-logo > .header-logo-link >.header-logo-link-img {
+  .header-logo > .header-logo-link > .header-logo-link-img {
     width: 27rem;
   }
 
@@ -1177,7 +1174,7 @@ a:link,
 
   .big-title {
     font-size: 1.6rem;
-}
+  }
 
   .block-trend {
     flex-basis: 100%;
@@ -1188,19 +1185,18 @@ a:link,
   .block-trend-text {
     padding: 1.4rem 1.5rem 2.7rem;
     margin: 0 2.1rem 1.5rem 2.1rem;
-}
+  }
 
+  .block-trend-title {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    letter-spacing: 0.6px;
+    margin-bottom: 0rem;
+  }
 
-.block-trend-title {
-  font-size: 1.4rem;
-  line-height: 1.7;
-  letter-spacing: 0.6px;
-  margin-bottom: 0rem;
-}
-
-.block-trend-tag-item {
-  margin-top: 1rem;
-}
+  .block-trend-tag-item {
+    margin-top: 1rem;
+  }
 
   .block-trend:first-of-type {
     margin-top: 2.4rem;
@@ -1227,11 +1223,11 @@ a:link,
   .block:first-child {
     margin: 0 auto;
     padding-bottom: 1.9rem;
-}
+  }
 
-.block:last-child {
-  margin: 3.6rem auto 3.5rem auto;
-}
+  .block:last-child {
+    margin: 3.6rem auto 3.5rem auto;
+  }
 
   .block:nth-child(6),
   .block:nth-child(7) {
@@ -1287,7 +1283,7 @@ a:link,
 
   .content-side-title {
     font-size: 1.6rem;
-}
+  }
 
   .new-post {
     width: 33.5rem;
@@ -1297,7 +1293,7 @@ a:link,
   .new-post > .new-post-img {
     width: 7rem;
     margin: 0rem 0 0.6rem;
-}
+  }
 
   .new-posts-block {
     margin: 0 auto;
@@ -1306,11 +1302,11 @@ a:link,
   .new-post-content {
     margin-left: 1.6rem;
     margin-top: 0.3rem;
-}
+  }
 
-.new-post-content-date {
-  margin: 0 0 0.4rem;
-}
+  .new-post-content-date {
+    margin: 0 0 0.4rem;
+  }
 
   .new-post-content-title {
     font-size: 1.45rem;
@@ -1340,7 +1336,7 @@ a:link,
   .content-side-subscribe-button {
     width: 32.5rem;
     margin: 1.5rem auto 0;
-  }  
+  }
 
   .content-side-subscribe {
     width: 32.5rem;
@@ -1360,7 +1356,7 @@ a:link,
     padding: 0.5rem 1.4rem 0.5rem 1.65rem;
     margin: 0.25rem 0 0.25rem;
     letter-spacing: 0.3px;
-}
+  }
 
   .content-side-topics-block {
     margin: 3.6rem auto 0;
@@ -1369,7 +1365,7 @@ a:link,
 
   .content-side-topics {
     margin-top: 0.6rem;
-}
+  }
 
   .goods {
     margin-top: 4rem;
@@ -1385,8 +1381,8 @@ a:link,
   }
 
   .goods-item-info-title {
-    margin: 2.1rem 0 .1rem;
-}
+    margin: 2.1rem 0 0.1rem;
+  }
 
   .goods-item-info {
     flex-shrink: 1;
@@ -1399,7 +1395,7 @@ a:link,
 
   .goods-item-info-prices-button {
     margin-top: 2.3rem;
-}
+  }
 
   .goods-item-info-button {
     flex-shrink: 0;
@@ -1411,11 +1407,11 @@ a:link,
 
   .footer-social-block {
     margin: 3.7rem auto 0;
-}
+  }
 
-.footer-copyright-block {
-  margin: 4.6rem auto 4.3rem;
-}
+  .footer-copyright-block {
+    margin: 4.6rem auto 4.3rem;
+  }
 
   .popup {
     width: 80%;

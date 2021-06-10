@@ -237,6 +237,10 @@ a:link,
   color: #b59f5b;
 }
 
+.block-trend-tag-item-link:link:hover {
+  text-decoration: underline;
+}
+
 .block-trend-title {
   text-transform: uppercase;
   font-family: OpenSansBold, sans-serif;
